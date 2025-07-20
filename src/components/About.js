@@ -14,11 +14,27 @@ const About = () => {
         >
           About Me
         </Typography>
-        <Typography variant="body1" color="text.secondary" paragraph textAlign="center">
-          I'm a passionate Software Engineer with hands-on experience in building responsive web and mobile applications. My interests lie in Web Development, Mobile Apps, and UI/UX design. I specialize in React, Firebase, WordPress, and MySQL.
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          paragraph
+          textAlign="center"
+        >
+          I&apos;m a passionate Software Engineer with hands-on experience in
+          building responsive web and mobile applications. My interests lie in
+          Web Development, Mobile Apps, and UI/UX design. I specialize in
+          React, Firebase, WordPress, and MySQL.
         </Typography>
-        <Typography variant="body1" color="text.secondary" paragraph textAlign="center">
-          I’ve developed and delivered real-world projects across industries like education, e-commerce, hospitality, and vehicle service management. I’m always eager to learn new technologies and improve my skills.
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          paragraph
+          textAlign="center"
+        >
+          I&apos;ve developed and delivered real-world projects across
+          industries like education, e-commerce, hospitality, and vehicle
+          service management. I&apos;m always eager to learn new technologies
+          and improve my skills.
         </Typography>
       </Container>
     </Box>
