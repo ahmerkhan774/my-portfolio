@@ -48,7 +48,7 @@ const Hero = () => {
           </Button>
           <Button
             variant="outlined"
-            href="https://github.com/AhmerKhan"
+            href="https://github.com/ahmerkhan774/"
             target="_blank"
             rel="noopener noreferrer"
             sx={{ color: "#2196f3", borderColor: "#2196f3" }}
@@ -57,7 +57,7 @@ const Hero = () => {
           </Button>
           <Button
             variant="outlined"
-            href="https://www.linkedin.com/in/AhmerKhan"
+            href="https://www.linkedin.com/in/ahmer-khan-669085296"
             target="_blank"
             rel="noopener noreferrer"
             sx={{ color: "#2196f3", borderColor: "#2196f3" }}

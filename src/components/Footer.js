@@ -9,7 +9,9 @@ const Footer = () => {
     <Box sx={{ py: 4, backgroundColor: "#111", color: "#fff", mt: 8 }}>
       <Container maxWidth="md" sx={{ textAlign: "center" }}>
         <Typography variant="body1" gutterBottom>
-          © {new Date().getFullYear()} Ahmer Khan. All rights reserved.
+         <div> Email at: khanahmer774@gmail.com </div>
+          © {new Date().getFullYear()} 
+          Ahmer Khan. All rights reserved.
         </Typography>
 
         <Typography variant="body2" mb={2}>
@@ -38,7 +40,7 @@ const Footer = () => {
         {/* Social Icons */}
         <Stack direction="row" spacing={2} justifyContent="center">
           <IconButton
-            href="https://github.com/AhmerKhan"
+            href="https://github.com/ahmerkhan774"
             target="_blank"
             rel="noopener noreferrer"
             color="inherit"
@@ -47,7 +49,7 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
-            href="https://www.linkedin.com/in/AhmerKhan"
+            href="https://www.linkedin.com/in/ahmer-khan-669085296"
             target="_blank"
             rel="noopener noreferrer"
             color="inherit"
@@ -56,6 +58,7 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
+        
             href="mailto:khanahmer774@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
