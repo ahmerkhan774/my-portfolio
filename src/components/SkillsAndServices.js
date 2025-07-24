@@ -47,7 +47,7 @@ const SkillsAndServices = () => {
           gutterBottom
           mb={6}
         >
-          Skills & Services
+          Skills & interests
         </Typography>
 
         <Box

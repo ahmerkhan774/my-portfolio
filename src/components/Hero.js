@@ -24,43 +24,94 @@ const Hero = () => {
       }}
     >
       <Fade in timeout={1000}>
-        <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
+        <Typography
+          variant="h2"
+          component="h1"
+          gutterBottom
+          fontWeight={800}
+          sx={{ color: "#00f9ff" }} // Neon cyan for contrast
+        >
           Ahmer Khan
         </Typography>
       </Fade>
 
       <Slide direction="up" in timeout={1200}>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography
+          variant="h4"
+          component="h2"
+          gutterBottom
+          fontWeight={600}
+          sx={{ color: "#c5e3ff" }} // Light blue for contrast
+        >
           Software Engineer
         </Typography>
       </Slide>
 
       <Fade in timeout={1400}>
-        <Typography variant="body1" color="inherit" mb={3}>
+        <Typography variant="h6" color="inherit" mb={2} maxWidth="800px">
           Passionate about building web and mobile apps. Experienced with React, Firebase, WordPress and more.
         </Typography>
       </Fade>
 
-      <Slide direction="up" in timeout={1600}>
+      <Fade in timeout={1600}>
+        <Typography
+          variant="body1"
+          color="inherit"
+          maxWidth="800px"
+          mb={5}
+          sx={{ fontSize: "1.15rem", lineHeight: 1.9 }}
+        >
+          I'm Ahmer Khan, a passionate Software Engineer and Web Developer with a solid foundation in{" "}
+          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+            HTML
+          </Box>
+          ,{" "}
+          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+            CSS
+          </Box>
+          ,{" "}
+          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+            JavaScript
+          </Box>{" "}
+          and{" "}
+          <Box component="span" sx={{ color: "#61dafb", fontWeight: 600 }}>
+            React
+          </Box>
+          . I specialize in building clean, responsive, and user-friendly web applications. I love turning ideas into real-world
+          solutions through code and continuously strive to learn and grow in the ever-evolving
+          tech landscape. Outside of development, I enjoy exploring emerging technologies and
+          staying active.
+        </Typography>
+      </Fade>
+
+      <Slide direction="up" in timeout={1800}>
         <Stack direction="row" spacing={2} flexWrap="wrap" justifyContent="center">
           <Button variant="contained" href="mailto:khanahmer774@gmail.com">
             Email Me
           </Button>
           <Button
-            variant="outlined"
+            variant="contained"
+            sx={{
+              backgroundColor: "#24292e",
+              color: "#fff",
+              "&:hover": { backgroundColor: "#1b1f23" }
+            }}
             href="https://github.com/ahmerkhan774/"
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#2196f3", borderColor: "#2196f3" }}
           >
             GitHub
           </Button>
           <Button
-            variant="outlined"
+            variant="contained"
+            sx={{
+              backgroundColor: "#0072b1",
+              color: "#fff",
+              "&:hover": { backgroundColor: "#005885" }
+            }}
             href="https://www.linkedin.com/in/ahmer-khan-669085296"
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "#2196f3", borderColor: "#2196f3" }}
           >
             LinkedIn
           </Button>

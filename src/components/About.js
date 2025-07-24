@@ -14,6 +14,21 @@ const About = () => {
         >
           About Me
         </Typography>
+
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          paragraph
+          textAlign="center"
+        >
+          With a Bachelor's in Software Engineering and a CGPA of{" "}
+          <Box component="span" sx={{ color: "#477ceeff", fontWeight: 800 }}>
+            3.3
+          </Box>
+          , I am a dedicated professional eager to contribute to impactful projects. My journey in web development 
+          began with a keen interest in UI/UX design, leading me to specialize in creating engaging and functional web interfaces.
+        </Typography>
+
         <Typography
           variant="body1"
           color="text.secondary"
@@ -25,6 +40,7 @@ const About = () => {
           Web Development, Mobile Apps, and UI/UX design. I specialize in
           React, Firebase, WordPress, and MySQL.
         </Typography>
+
         <Typography
           variant="body1"
           color="text.secondary"
