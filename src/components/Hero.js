@@ -29,7 +29,7 @@ const Hero = () => {
           component="h1"
           gutterBottom
           fontWeight={800}
-          sx={{ color: "#00f9ff" }} // Neon cyan for contrast
+          sx={{ color: "#00f9ff" }}
         >
           Ahmer Khan
         </Typography>
@@ -41,7 +41,7 @@ const Hero = () => {
           component="h2"
           gutterBottom
           fontWeight={600}
-          sx={{ color: "#c5e3ff" }} // Light blue for contrast
+          sx={{ color: "#c5e3ff" }}
         >
           Software Engineer
         </Typography>
@@ -61,7 +61,7 @@ const Hero = () => {
           mb={5}
           sx={{ fontSize: "1.15rem", lineHeight: 1.9 }}
         >
-          I'm Ahmer Khan, a passionate Software Engineer and Web Developer with a solid foundation in{" "}
+          I&apos;m Ahmer Khan, a passionate Software Engineer and Web Developer with a solid foundation in{" "}
           <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
             HTML
           </Box>

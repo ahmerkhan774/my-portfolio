@@ -21,7 +21,7 @@ const About = () => {
           paragraph
           textAlign="center"
         >
-          With a Bachelor's in Software Engineering and a CGPA of{" "}
+          With a Bachelor&apos;s in Software Engineering and a CGPA of{" "}
           <Box component="span" sx={{ color: "#477ceeff", fontWeight: 800 }}>
             3.3
           </Box>
