@@ -67,7 +67,7 @@ const projectList = [
     description: "A social media mobile app for AUST students with Firebase backend.",
     tools: ["Flutter", "Firebase","Dart"],
     github: "https://github.com/yourusername/aust-voice-flutter",
-    thumbnail: "/images/aust_flutter_1.JPEG",
+    thumbnail: "/images/aust_flutter_1.jpeg",
     screenshots: [
       "/images/aust_flutter_1.jpeg",
       "/images/aust_flutter_2.jpeg",
