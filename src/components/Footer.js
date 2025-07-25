@@ -1,5 +1,12 @@
 import React from "react";
-import { Box, Typography, Container, Link, Stack, IconButton } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Container,
+  Link,
+  Stack,
+  IconButton,
+} from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
@@ -9,9 +16,9 @@ const Footer = () => {
     <Box sx={{ py: 4, backgroundColor: "#111", color: "#fff", mt: 8 }}>
       <Container maxWidth="md" sx={{ textAlign: "center" }}>
         <Typography variant="body1" gutterBottom>
-         <div> Email at: khanahmer774@gmail.com </div>
-          © {new Date().getFullYear()} 
-          Ahmer Khan. All rights reserved.
+          <span>Email at: khanahmer774@gmail.com</span>
+          <br />
+          © {new Date().getFullYear()} Ahmer Khan. All rights reserved.
         </Typography>
 
         <Typography variant="body2" mb={2}>
@@ -58,7 +65,6 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
-        
             href="mailto:khanahmer774@gmail.com"
             target="_blank"
             rel="noopener noreferrer"

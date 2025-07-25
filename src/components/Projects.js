@@ -69,12 +69,12 @@ const projectList = [
     github: "https://github.com/yourusername/aust-voice-flutter",
     thumbnail: "/images/aust_flutter_1.JPEG",
     screenshots: [
-      "/images/aust_flutter_1.JPEG",
-      "/images/aust_flutter_2.JPEG",
-      "/images/aust_flutter_3.JPEG",
-      "/images/aust_flutter_4.JPEG",
-      "/images/aust_flutter_5.JPEG",
-      "/images/aust_flutter_6.JPEG",
+      "/images/aust_flutter_1.jpeg",
+      "/images/aust_flutter_2.jpeg",
+      "/images/aust_flutter_3.jpeg",
+      "/images/aust_flutter_4.jpeg",
+      "/images/aust_flutter_5.jpeg",
+      "/images/aust_flutter_6.jpeg",
     ],
   },
   {
