@@ -62,21 +62,21 @@ const Hero = () => {
           sx={{ fontSize: "1.15rem", lineHeight: 1.9 }}
         >
           I&apos;m Ahmer Khan, a passionate Software Engineer and Web Developer with a solid foundation in{" "}
-          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+          <Typography component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
             HTML
-          </Box>
+          </Typography>
           ,{" "}
-          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+          <Typography component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
             CSS
-          </Box>
+          </Typography>
           ,{" "}
-          <Box component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
+          <Typography component="span" sx={{ color: "#ffcc00", fontWeight: 600 }}>
             JavaScript
-          </Box>{" "}
+          </Typography>{" "}
           and{" "}
-          <Box component="span" sx={{ color: "#61dafb", fontWeight: 600 }}>
+          <Typography component="span" sx={{ color: "#61dafb", fontWeight: 600 }}>
             React
-          </Box>
+          </Typography>
           . I specialize in building clean, responsive, and user-friendly web applications. I love turning ideas into real-world
           solutions through code and continuously strive to learn and grow in the ever-evolving
           tech landscape. Outside of development, I enjoy exploring emerging technologies and
