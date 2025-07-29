@@ -104,18 +104,37 @@ const projectList = [
       "/images/gym_5.png",
       ],
   },
-  {
+    {
     title: "Grocery E-commerce Website",
     description: "An online grocery store with user authentication and cart features.",
     tools: ["Wordpress,Woocommerce,Plugins"],
     github: "https://github.com/ahmerkhan774/grocery-ecommerce",
     thumbnail: "/images/grocery_1.jpg",
-    screenshots: ["/images/grocery_1.jpg",
+    screenshots: [
+      "/images/grocery_1.jpg",
       "/images/grocery_2.png",
       "/images/grocery_3.png"
-    ],
+    ]
   },
-  
+  {
+    title: "Tandoori Flame Website",
+    description: "An online Food Resturant for ordering food.",
+    tools: ["Html,Css,Java Script"],
+    github: "https://github.com/ahmerkhan774/tandoori-flame-website",
+    thumbnail: "/images/tandoori1.png",
+    screenshots: [
+      "/images/tandoori1.png",
+      "/images/tandoori2.png",
+      "/images/tandoori3.png",
+      "/images/tandoori4.png",
+      "/images/tandoori5.png",
+      "/images/tandoori6.png",
+      "/images/tandoori7.png",
+      "/images/tandoori8.png",
+    ]
+  }
+
+
  
 ];
 
